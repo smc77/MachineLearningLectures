@@ -1,0 +1,3 @@
+univariate.regression		1. Code for the univariate regression lectures, including the loss function and gradient descent.
+linear.algebra			2. Code for the linear algebra review lectures.
+multivariate.regression		3. Code for the multivariate regression, gradient descent, and the normal equation.
