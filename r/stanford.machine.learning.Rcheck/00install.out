@@ -1,0 +1,12 @@
+* installing *source* package 'stanford.ml' ...
+** R
+** demo
+** preparing package for lazy loading
+** help
+Warning: C:/Programming/MachineLearningLectures/r/stanford.machine.learning/man/stanford.machine.learning-package.Rd:32: All text must be in a section
+Warning: C:/Programming/MachineLearningLectures/r/stanford.machine.learning/man/stanford.machine.learning-package.Rd:33: All text must be in a section
+*** installing help indices
+** building package indices ...
+** testing if installed package can be loaded
+
+* DONE (stanford.ml)

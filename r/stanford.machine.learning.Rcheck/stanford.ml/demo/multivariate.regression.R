@@ -75,12 +75,11 @@ qplot(1:(nrow(scaled.theta)), scaled.theta[,1], geom=c("line"), xlab="iteration"
 qplot(1:(nrow(scaled.theta)), scaled.theta[,2], geom=c("line"), xlab="iteration", ylab="theta_2")
 
 # Look at output for various different alpha values
-alpha <- c(1e-9, 1e-7, 1e-3, 0.1)
-vary.alpha <- lapply(alpha, function(alpha) gradient.descent(x=x, y=y, alpha=alpha, num.iterations=num.iterations, output.path=TRUE))
+vary.alpha <- lapply(c(1e-9, 1e-7, 1e-3, 0.1), function(alpha) gradient.descent(x=x, y=y, alpha=alpha, num.iterations=num.iterations, output.path=TRUE))
 
 par(mfrow = c(2, 2))
 for (j in 1:4) {
-	plot(vary.alpha[[j]][,2], ylab="area (theta)", xlab=paste("alpha =", alpha[j]), type="l")
+	plot(vary.alpha[[j]][,2], ylab="area (alpha=1e-9)", xlab="iteration", type="l")
 }
 
 readline("Press <ENTER> to Continue.")
