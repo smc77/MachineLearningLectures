@@ -23,3 +23,4 @@ gradient.path <- function(x) {
     }
     theta.path
 }
+
